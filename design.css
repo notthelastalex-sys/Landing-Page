@@ -204,6 +204,34 @@ button{
 button:hover{
     background: #0ea5e9;
 }
+/* FOOTER */
+
+footer{
+    width: 100%;
+    background: #020617;
+    padding: 30px 10%;
+    margin-top: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+footer p{
+    color: #94a3b8;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/* OPTIONAL HOVER EFFECT */
+
+footer p:hover{
+    color: #38bdf8;
+    transition: 0.3s ease;
+}
 
 /* MOBILE */
 
